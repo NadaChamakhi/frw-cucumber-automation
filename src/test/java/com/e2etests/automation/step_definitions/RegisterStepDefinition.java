@@ -22,6 +22,7 @@ public class RegisterStepDefinition {
 	@When("Je saisie le firstname {string}")
 	public void jeSaisieLeFirstname(String firstname) {
 		registerPage.fillFirstName(firstname);
+	
 
 	}
 	@When("Je saisie le lastname {string}")
